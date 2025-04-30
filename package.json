@@ -1,13 +1,13 @@
 {
   "name": "discord-timebot",
   "version": "1.0.0",
+  "description": "A Discord bot for time management",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "discord.js": "^13.3.1",
-    // other dependencies
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
   }
 }
